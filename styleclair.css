@@ -1,0 +1,110 @@
+body {
+    background-color: rgba(0, 0, 0, 0.897);
+    color: aliceblue;
+}
+
+table{
+  border-collapse: collapse;
+  width: 10px;
+  margin-bottom: 2px;
+}
+
+th, td{
+  border: 1px solid rgb(32, 89, 175);
+  padding: 10px;
+}
+
+@keyframes LogoOM {
+  from {
+    transform: translateY(-20px);
+}
+to {
+  transform: translateY(30px);
+}  
+}
+img {
+  animation: LogoOM 3s infinite alternate;
+}
+.FirstLogo {
+  border-radius: 25px;
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(32, 89, 175);
+    padding: 20px;
+    margin-bottom: 40px;
+    
+}
+
+.PresentMe {
+  border-radius: 25px;
+    width: 200px;
+    height: 160px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(32, 89, 175);
+    padding: 20px;
+    margin-top: 100px;
+   
+}
+.experiencepro {
+   border-radius: 25px;
+    width: 370px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    padding-left: 80px;
+
+  
+}
+
+.informatique {
+   width: 200px;
+    height: 160px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(32, 89, 175);
+    padding: auto;
+    border-radius: 25px;
+    margin-top: 100px;
+}
+.centreint {
+   width: 200px;
+    height: 160px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    padding-right: 90px;
+}
+.thibaut {
+   width: 50px;
+    height: 40px;
+    margin: auto;
+    text-align: center;
+    margin-top: 0%;
+    margin: bottom 100px;
+    font-size: 200%;
+    padding-right: 80px;
+}
+
+.logo {
+   width: 200px;
+    height: 160px;
+    margin: auto;
+    padding-right: 150px;
+}
+.bouton-image {
+  width: 80px; /* ou ce que tu veux */
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  border-radius: 50%; /* si tu veux que ce soit bien rond */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.bouton-image:hover {
+  transform: scale(1.1); /* effet zoom au survol */
+}

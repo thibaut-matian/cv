@@ -1,0 +1,107 @@
+img{
+    width:100px;
+    height: 100px;
+    border-radius: 15px;
+}
+.PresentMe{
+    border-radius: 25px;
+    width: 370px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(42, 165, 114);
+    padding: 10px;
+    margin-top: 50px;
+}
+.PresentMe{
+    margin-bottom: 15px;
+    box-shadow:10px 7px 1.0px ;
+}
+p{
+   
+    color: rgb(48, 143, 167);
+}
+h1{
+    color: white;
+}
+li{
+    color: white;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+.interets{
+    border-radius: 25px;
+    width: 370px;
+    height: 100px;
+    margin: auto;
+   
+    background-color: rgb(42, 165, 114);
+    padding: 30px;
+   
+}
+.interets ul li {
+    list-style: none;
+    padding: 5px;
+    display: inline;
+}
+.experience{
+    border-radius: 25px;
+    width: 370px;
+    height: 650px;
+    margin: auto;
+    
+    background-color: rgb(42, 165, 114);
+    padding: 10px;
+}
+.experience li{
+    display: inline;
+}
+ul li {
+    list-style-type: none;
+}
+.interets img{
+    width: 30px;
+    height: 30px;
+}
+.interets{
+    box-shadow: 10px 5px 1px;
+}
+.experience{
+    margin-bottom: 10px;
+    box-shadow: 10px 5px 0.5px;
+}
+.experience p{
+    display: flex;
+}
+.contact{
+    border-radius: 25px;
+    width: 300px;
+    height: 110px;
+    margin: auto;
+  
+    background-color: brown;
+    padding: 30px;
+}
+.contact img{
+    width: 25px;
+    height:25px;
+    
+}
+.contact{
+    margin-bottom: 15px;
+    box-shadow:10px 7px 0.5px ;
+}
+.contact li{
+    display: inline;
+    padding: 20px;
+    
+}
+a{
+    color: white;
+}
