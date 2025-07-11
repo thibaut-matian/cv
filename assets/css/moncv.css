@@ -1,3 +1,9 @@
+* {
+  margin:0%;
+  padding:0%;
+}
+
+
 body {
   font-family: Arial, sans-serif;
   background: linear-gradient(to right, #3498db, #ffffff);
@@ -9,6 +15,7 @@ body {
 
 
 header {
+  width: 100%;
   text-align: center;
   margin-bottom: 30px;
   background: linear-gradient(to right, rgba(59, 69, 255, 0.856), #000000);
@@ -135,16 +142,15 @@ li {
   color: #95a5a6;
   font-size: 14px;
 }
-.skills span {
-  display: inline-block;
-  background: #3498db;
-  color: #fff;
-  padding: 5px 10px;
-  margin: 5px 5px 0 0;
-  border-radius: 20px;
-  font-size: 0.9em;
-  
+
+.skills span{
+  display: flex;
+  justify-content: center;  
+  flex-wrap: wrap;          
+  gap: 10px;                
+  margin-top: 20px;
 }
+
 
 @media (min-width: 768px) {
   .footer-content {
@@ -162,17 +168,5 @@ li {
 
   .contact-section {
     text-align: center;
-  }
-}
-
-
-
-@media (max-width: 600px) {
-  .container {
-    padding: 20px;
-  }
-
-  h1 {
-    font-size: 1.8em;
   }
 }
