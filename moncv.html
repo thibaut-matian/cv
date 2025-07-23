@@ -1,95 +1,107 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" data-theme="forest">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/moncv.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Cherry+Bomb+One&family=Modak&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Cherry+Bomb+One&family=Modak&family=Rubik+Distressed&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <title>CV - Thibaut Matian</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV - Thibaut Matian</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Modak&display=swap" rel="stylesheet">
+  <style>
+    h1 {
+      font-family: 'Cherry Bomb One', cursive;
+    }
+
+
+  </style>
 </head>
 
-<body>
-    <div class="container">
-        <header>
-            <h1>Thibaut Matian</h1>
-            <p>Développeur Web Junior</p>
-            <img src="assets/img/css-3-svgrepo-com.svg" alt="css" width="50px" height="50px">
-            <img src="assets/img/git-svgrepo-com.svg" alt="git" width="50px" height="50px">
-            <img src="assets/img/html-5-svgrepo-com.svg" alt="html" width="50px" height="50px">
-        </header>
-    </div>
-    <section class="skills">
-        <h2>Compétences</h2>
-        <span>HTML</span>
-        <span>CSS</span>
-        <span>Git</span>
-        <span>Responsive Design</span>
+<body class="bg-base-200 text-base-content">
+  <div class="max-w-5xl mx-auto p-6">
+
+   
+    <header class="text-center mb-10">
+      <h1 class="text-5xl font-bold">Thibaut Matian</h1>
+      <p class="text-xl text-primary">Développeur Web Junior</p>
+      <div class="flex justify-center gap-4 mt-4">
+        <img src="assets/img/html-5-svgrepo-com.svg" alt="HTML" class="w-10 h-10" />
+        <img src="assets/img/css-3-svgrepo-com.svg" alt="CSS" class="w-10 h-10" />
+        <img src="assets/img/git-svgrepo-com.svg" alt="Git" class="w-10 h-10" />
+      </div>
+    </header>
+
+    
+    <section class="mb-10">
+      <h2 class="text-3xl font-bold mb-4">Compétences</h2>
+      <div class="flex flex-wrap gap-3">
+        <span class="badge badge-primary">HTML</span>
+        <span class="badge badge-secondary">CSS</span>
+        <span class="badge badge-accent">Git</span>
+        <span class="badge badge-info">Responsive Design</span>
+      </div>
     </section>
 
-    <div class="row">
-        <section class="column">
-            <h2>Expérience</h2>
-            <ul>
-                <li><strong>Stage – Développeur Front-end</strong> (2025) – Création d’une interface en HTML/CSS
-                    pour une application interne</li>
-                <li><strong>Auto-projets</strong> – Réalisation de mini-sites et d’une page CV interactive</li>
-                <li><strong>Chef de salle </strong> (2024)</li>
-                <li><strong>Serveur</strong> (2020-2023)</li>
-            </ul>
-        </section>
-
-        <section class="column">
-            <h2>Formation</h2>
-            <ul>
-                <li><strong>Formation Développeur Web</strong> – 2025 – LaPlateforme</li>
-                <li><strong>L1 Droit</strong> –2016-2017 – Avignon Hannah Arendt</li>
-                <li><strong>Baccalauréat</strong> – 2016 – Littérature</li>
-            </ul>
-        </section>
+    
+    <div class="grid md:grid-cols-2 gap-6 mb-10">
+      <section>
+        <h2 class="text-3xl font-bold mb-4">Expérience</h2>
+        <ul class="list-disc list-inside space-y-2">
+          <li><strong>Stage – Développeur Front-end</strong> (2025) – Création d’une interface en HTML/CSS</li>
+          <li><strong>Auto-projets</strong> – Mini-sites & page CV interactive</li>
+          <li><strong>Chef de salle</strong> (2024)</li>
+          <li><strong>Serveur</strong> (2020-2023)</li>
+        </ul>
+      </section>
+      <section>
+        <h2 class="text-3xl font-bold mb-4">Formation</h2>
+        <ul class="list-disc list-inside space-y-2">
+          <li><strong>Formation Développeur Web</strong> – 2025 – LaPlateforme</li>
+          <li><strong>L1 Droit</strong> – 2016-2017 – Avignon Hannah Arendt</li>
+          <li><strong>Baccalauréat Littéraire</strong> – 2016</li>
+        </ul>
+      </section>
     </div>
-    <section>
-        <h2>À propos</h2>
-        <p>Passionné par le développement web, je suis actuellement en formation pour devenir développeur web
-            junior. Autonome, curieux et motivé.</p>
+
+    
+    <section class="mb-10">
+      <h2 class="text-3xl font-bold mb-4">À propos</h2>
+      <p class="text-justify">
+        Passionné par le développement web, je suis actuellement en formation pour devenir développeur web junior. Autonome, curieux et motivé.
+      </p>
     </section>
 
-    <footer>
-        <footer class="footer">
-            <div class="footer-content">
-                <!-- Logo à gauche -->
-                <div class="footer-section logo-section">
+   <div class="container mx-auto grid grid-cols-1 sm:grid-cols-3 gap-6 px-6 py-8 text-center sm:text-left">
+    
+   
+    <div class="flex justify-center sm:justify-start">
+      <img src="assets/img/Technology.png" alt="Logo" class="w-16 h-16" />
+    </div>
 
-                    <img src="assets/img/Technology.png" width="100px" height="100px">
-                </div>
+    
+    <div>
+      <h3 class="font-bold text-lg">Contact</h3>
+      <p>14 rue de Jul<br />13007 Marseille</p>
+      <p>06 87 79 22 56</p>
+    </div>
 
-                <!-- Contact au milieu -->
-                <div class="footer-section contact-section">
-                    <h3>Contact</h3>
-                    <div class="contact-info">
-                        <p><strong>14 rue de Jul</strong><br>
-                            13007 Marseille</p>
-                        <p>06 87 79 22 56</p>
+    
+    <div class="flex flex-col items-center sm:items-end">
+      <h3 class="font-bold text-lg mb-2">Suivez-moi</h3>
+      <div class="flex gap-4">
+        <a href="#"><img src="assets/img/discord.svg" class="w-7 h-7" alt="Discord" /></a>
+        <a href="#"><img src="assets/img/twitter.svg" class="w-7 h-7" alt="Twitter" /></a>
+        <a href="#"><img src="assets/img/instagram.svg" class="w-7 h-7" alt="Instagram" /></a>
+      </div>
+    </div>
+  </div>
 
-                    </div>
-                </div>
+ 
+  <div class="text-center text-sm py-4 bg-black bg-opacity-80">
+    &copy; 2025 Thibaut Matian. Tous droits réservés.
+  </div>
 
-                <!-- Réseaux sociaux à droite -->
-                <div class="footer-section social-section">
-                    <h3>Suivez-moi:</h3>
-                    <div class="social-icons">
-                        <a href=""><img src="assets/img/discord.svg" width="50px" height="30px"></a>
-                        <a href=""><img src="assets/img/twitter.svg" width="35px" height="30px"></a>
-                        <a href=""><img src="assets/img/instagram.svg" width="35px" height="30px"></a>
-                    </div>
-                </div>
-            </div>
-
-        </footer>
-    </footer>
+  </div>
 </body>
 
 </html>
