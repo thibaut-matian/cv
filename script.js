@@ -28,6 +28,12 @@ document.addEventListener('DOMContentLoaded', function() {
     'assets/img/Suna_Suna_no_Mi.png',
     'assets/img/Gomu_Gomu_no_Mi.png',
     'assets/img/Mero_Mero_no_Mi.png',
+    'assets/img/Bison.png',
+    'assets/img/kuma.png',
+    'assets/img/kaido.png',
+
+    
+
     
   ];
   
@@ -47,7 +53,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const startX = Math.random() * 100;
     particle.style.left = startX + 'vw';
     
-    const size = Math.random() * 20 + 25; 
+    // Taille plus grande pour les fruits (40px à 70px au lieu de 25px à 45px)
+    const size = Math.random() * 30 + 40; 
     particle.style.width = size + 'px';
     particle.style.height = size + 'px';
     
@@ -184,7 +191,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Générer les particules
   if (particlesContainer) {
-    for (let i = 0; i < 25; i++) {
+    for (let i = 0; i < 20; i++) {  // Réduit de 25 à 20 particules
       createParticle();
     }
   }
