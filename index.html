@@ -12,6 +12,14 @@
 </head>
 
 <body>
+  <div id="landing-page">
+    <div id="code-particles"></div>
+    <div class="landing-content">
+      <h1 class="glitch-text">THIBAUT MATIAN</h1>
+      <button id="enter-btn">INITIALISER LE CV</button>
+    </div>
+  </div>
+
   <div class="bg-liquid">
     <div class="bg-liquid__blob bg-liquid__blob--one"></div>
     <div class="bg-liquid__blob bg-liquid__blob--two"></div>
@@ -19,13 +27,13 @@
   </div>
 
   <main class="cv-shell" role="main">
-    <header class="cv-header glass" aria-labelledby="cv-name">
+    <header class="cv-header glass reveal" aria-labelledby="cv-name">
       <div class="avatar">
         <img src="assets/img/Technology.png" alt="Thibaut Matian - avatar" />
       </div>
       <div class="titleblock">
         <h1 id="cv-name">Thibaut Matian</h1>
-        <p class="subtitle">Développeur Web Junior</p>
+        <p id="typewriter" class="subtitle">Développeur Web Junior</p>
         <ul class="stack-icons" aria-label="Technologies principales">
           <li><img src="assets/img/html-5-svgrepo-com.svg" alt="HTML" /></li>
           <li><img src="assets/img/css-3-svgrepo-com.svg" alt="CSS" /></li>
@@ -36,35 +44,36 @@
 
     <section class="cv-grid">
       <aside class="sidebar">
-        <section class="glass card" aria-labelledby="contact-title">
+        <section class="glass card reveal" aria-labelledby="contact-title">
           <h2 id="contact-title" class="card__title">Contact</h2>
           <ul class="contact">
             <li>
               <span class="label">Adresse</span>
-              <span>14 rue de Jul, 13007 Marseille</span>
+              <span>4 traverse de la Roseraie, 13007 Marseille</span>
             </li>
             <li>
               <span class="label">Téléphone</span>
-              <a href="tel:+33687792256">06 87 79 22 56</a>
+              <a href="tel:+33687792256">06 87 79 52 23</a>
             </li>
             <li>
               <span class="label">Email</span>
-              <a href="mailto:thibaut@example.com">thibaut@example.com</a>
+              <a href="mailto:thibaut@example.com">thibaut.matian@gmail.com</a>
             </li>
           </ul>
         </section>
 
-        <section class="glass card" aria-labelledby="skills-title">
+        <section class="glass card reveal" aria-labelledby="skills-title">
           <h2 id="skills-title" class="card__title">Compétences</h2>
           <div class="tags">
             <span class="tag">HTML</span>
             <span class="tag">CSS</span>
             <span class="tag">Git</span>
             <span class="tag">Responsive Design</span>
+            <span class="tag">JavaScript</span>
           </div>
         </section>
 
-        <section class="glass card" aria-labelledby="social-title">
+        <section class="glass card reveal" aria-labelledby="social-title">
           <h2 id="social-title" class="card__title">Réseaux</h2>
           <div class="socials">
             <a href="#" aria-label="Discord"><img src="assets/img/discord.svg" alt="Discord" /></a>
@@ -75,21 +84,21 @@
       </aside>
 
       <section class="content">
-        <section class="glass card" aria-labelledby="about-title">
+        <section class="glass card reveal" aria-labelledby="about-title">
           <h2 id="about-title" class="card__title">À propos</h2>
           <p>
             Passionné par le développement web, je suis actuellement en formation pour devenir développeur web junior. Autonome, curieux et motivé.
           </p>
         </section>
 
-        <section class="glass card" aria-labelledby="exp-title">
+        <section class="glass card reveal" aria-labelledby="exp-title">
           <h2 id="exp-title" class="card__title">Expérience</h2>
           <ul class="timeline">
             <li>
               <div class="timeline__dot"></div>
               <div class="timeline__content">
-                <h3>Stage — Développeur Front-end <span class="pill">2025</span></h3>
-                <p>Création d’une interface en HTML/CSS.</p>
+                <h3>Formation Développeur Web / Mobile <span class="pill">2025</span></h3>
+                <p>Développeur full-stack (ou front-end/back-end) axé sur la conception d'expériences utilisateur fluides sur web et mobile</p>
               </div>
             </li>
             <li>
@@ -114,7 +123,7 @@
           </ul>
         </section>
 
-        <section class="glass card" aria-labelledby="edu-title">
+        <section class="glass card reveal" aria-labelledby="edu-title">
           <h2 id="edu-title" class="card__title">Formation</h2>
           <ul class="list">
             <li>
@@ -128,13 +137,29 @@
             </li>
           </ul>
         </section>
+
+        <section class="glass card reveal" aria-labelledby="projects-title">
+          <h2 id="projects-title" class="card__title">Projets</h2>
+          <div class="project-container">
+            <a href="salle de sport" target="_blank" rel="noopener noreferrer" class="project-button glass">Salle de Sport</a>
+            <a href="ping pong" target="_blank" rel="noopener noreferrer" class="project-button glass">Ping Pong</a>
+            <a href="fansite" target="_blank" rel="noopener noreferrer" class="project-button glass">Fansite</a>
+            <a href="memory" target="_blank" rel="noopener noreferrer" class="project-button glass">Memory</a>
+            <a href="app_favorite" target="_blank" rel="noopener noreferrer" class="project-button glass">App Favorite</a>
+            <a href="voyages" target="_blank" rel="noopener noreferrer" class="project-button glass">Site Voyage</a>
+            <a href="quizgemini" target="_blank" rel="noopener noreferrer" class="project-button glass">Quiz</a>
+            <a href="menuquiz" target="_blank" rel="noopener noreferrer" class="project-button glass">Quiz Menu</a>
+            <a href="jour11&12" target="_blank" rel="noopener noreferrer" class="project-button glass">Rendez-vous</a>
+          </div>
+        </section>
       </section>
     </section>
 
-    <footer class="cv-footer glass" role="contentinfo">
+    <footer class="cv-footer glass reveal" role="contentinfo">
       <small>&copy; 2025 Thibaut Matian — Tous droits réservés.</small>
     </footer>
   </main>
-</body>
 
+  <script src="script.js"></script>
+</body>
 </html>
